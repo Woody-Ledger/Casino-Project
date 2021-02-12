@@ -19,7 +19,7 @@ public class Roulette {
                 System.out.println("Sorry but you don't have enough Woody Coins to play this game");
                 System.out.println("if you wish to play then you can top up your balance in the main menu");
         } else {
-        System.out.println("Hello and welcome to...");
+        System.out.println("Welcome to...");
         System.out.println("                                   88                                       ");
         System.out.println("                                   88              ,d      ,d               ");
         System.out.println("                                   88              88      88               ");

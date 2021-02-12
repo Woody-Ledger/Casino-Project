@@ -16,7 +16,7 @@ public class BlackJack {
                 System.out.println("Sorry but you don't have enough Woody Coins to play this game");
                 System.out.println("if you wish to play then you can top up your balance in the main menu");
         } else {
-        System.out.println("Welcome...");
+        System.out.println("Welcome to...");
         System.out.println("");
         System.out.println("88888888ba  88                       88                   88                       88         ");
         System.out.println("88      \"8b 88                       88                   88                       88         ");
@@ -27,6 +27,9 @@ public class BlackJack {
         System.out.println("88      a8P 88 88,    ,88 \"8a,   ,aa 88`\"Yba,     88,   ,d88 88,    ,88 \"8a,   ,aa 88`\"Yba,   ");
         System.out.println("88888888P\"  88 `\"8bbdP\"Y8  `\"Ybbd8\"' 88   `Y8a     \"Y8888P\"  `\"8bbdP\"Y8  `\"Ybbd8\"' 88   `Y8a  ");
         System.out.println("");
+        System.out.println("The rules are you are given two cards and are asked to either hit or stop");
+        System.out.println("if you hit then you draw another card, if you stop then you stop");
+        System.out.println("you win if the sum of your cards is between 19 and 21");
         System.out.println("");
         System.out.println("What do you want to do?");
         System.out.println("");

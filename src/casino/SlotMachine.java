@@ -8,6 +8,8 @@ public class SlotMachine {
 
     public static int entry(int balance){
             Scanner input = new Scanner(System.in);
+            System.out.println("Welcome to...");
+            System.out.println("");
             System.out.println(" ad88888ba  88                       88b           d88                       88          88                         ");
             System.out.println("d8\"     \"8b 88              ,d       888b         d888                       88          \"\"                         ");
             System.out.println("Y8,         88              88       88`8b       d8'88                       88                                     ");
