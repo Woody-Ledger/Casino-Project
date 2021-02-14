@@ -30,6 +30,8 @@ public class SlotMachine {
             }
             System.out.println("Welcome to the slot machines.");
             System.out.println("");
+            System.out.println("One go costs one Woody Coin");
+            System.out.println("");
             System.out.println("Would you like to:");
             System.out.println("");
             System.out.println("1 - Play");
