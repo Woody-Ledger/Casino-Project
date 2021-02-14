@@ -75,7 +75,16 @@ public class BlackJack {
             wordCards[1] = newDeck.reveal();
             
             System.out.println(" and the " + newDeck.reveal());
-            
+            if(cards[0] % 100 > 10){
+                cards[0] = 10;
+            } else if(cards[0] % 100 == 1){
+                cards[0] = 11;
+            }
+            if(cards[1] % 100 > 10){
+                cards[1] = 10;
+            } else if(cards[1] % 100 == 1){
+                cards[1] = 11;
+            }
             //if all the cards add up to over 21 then the game ends
             int sum = (cards[0] %100) + (cards[1] %100);
             if(sum > 21){
@@ -100,6 +109,11 @@ public class BlackJack {
                     System.out.print("You have the " + wordCards[0]);
                     sum = cards[0] % 100;
                     for(int s = 1; s < i + 1; s++){
+                        if(cards[s] % 100 > 10){
+                        cards[s] = 10;
+                        } else if(cards[s] % 100 == 1){
+                        cards[s] = 11;
+            }
                         sum = sum + (cards[s] %100);
                         System.out.print(" and the " + wordCards[s]);
                     }
